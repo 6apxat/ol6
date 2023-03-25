@@ -57,7 +57,7 @@ const map = new Map({
 })
 
 const source = new VectorSource({
-  url: '/data.json',
+  url: 'data.json',
   format: new GeoJSON(),
 })
 
