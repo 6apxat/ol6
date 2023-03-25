@@ -46,7 +46,9 @@ const map = new Map({
   target: 'map',
   layers: [
     new TileLayer({
-      source: new OSM()
+      source: new OSM({
+        "url": "http://tile.openstreetmap.org/{z}/{x}/{y}.png"
+      })
     })
   ],
   view: new View({
